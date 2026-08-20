@@ -197,18 +197,17 @@ if not t2[LocalPlayer.Name] and true then
 	end
 
 	local t4 = {
-		God_ofgame99920 = {
-			Tag = "CREATOR",
-			Style = "DIVINE_RING",
-			Color = "RAINBOW",
-		},
-		akj200995 = {
-			Tag = "DADDY",
-			Style = "HYDRA_STRIKE",
-			Color = "RAINBOW",
-		},
-		
-	}
+    God_ofgame99920 = {
+        Tag = "CREATOR",
+        Style = "DIVINE_RING",
+        Color = "RAINBOW",
+    },
+    akj200995 = {
+        Tag = "DADDY",
+        Style = "HYDRA_STRIKE",
+        Color = "RAINBOW",
+    },
+}
 	local v134 = game.JobId ~= "" and game.JobId or "StudioSession"
 	local u135 = ("https://newmickeychat-default-rtdb.asia-southeast1.firebasedatabase.app/"):gsub(".json", "") .. "AuraSync.json"
 	local u136 = ("https://newmickeychat-default-rtdb.asia-southeast1.firebasedatabase.app/"):sub(-1) == "/"
